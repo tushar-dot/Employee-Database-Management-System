@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<!to tell the docc type>
+    <html>
+
+    <head>
+        <!--metadata--Data about data 
+       this is browser part-->
+        <title>THIS IS A HTML PAGE</title>
+
+    </head>
+
+    <body>
+        <marquee direction="left">Welcome to this page</marquee>
+
+        <!--marquee is used for moving text  diection may be right,left,up,down  marquee is not more used in html but browser supports even old html web pages  -->
+        <p width="100px"> THIS IS THE PARAGRAPH </p>
+        <br>
+        <img
+            src="data:image/jpeg;base64,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">
+
+    </body>
+
+    <body>
+        <h1>H1 HEADING</h1>
+        <hr>
+        <!--for horizontal line-->
+        <h2>H2 HEADING</h2>
+        <h3>H3 HEADING</h3>
+        <h4>H4 HEADING</h4>
+        <h5>H5 HEADING</h5>
+        <h6>H6 HEADING</h6>
+
+    </body>
+
+    <body>
+        <p id="local">
+            <s>ye strike text ke liye</s>
+            Lorem ipsum
+            <!--this space isnt considered by html--> dolor sit amet consectetur adipisicing elit.
+            Ab autem id vero expedita nihil quo optio omnis. <br><br><br>
+            <!--to break lines--> Inventore quia aut tempora, culpa tempore magni necessitatibus labore repudiandae vel,
+            pariatur iusto.
+        <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dolor beatae eum tenetur, ab deleniti perferendis molestiae placeat iste eaque sequi magni nostrum laudantium minus non! Nobis ea officia eaque.
+        </pre>
+        <p>Lorem ipsum <br>dolor sit, amet consectetur adipisicing elit.<br> Deserunt laboriosam blanditiis dignissimos
+            modi quaerat fuga ratione magnam, vel harum? Repellendus rerum voluptatum totam similique, minima maiores
+            tempore molestias quas autem?</p>
+
+        <br>
+        <b> ye bold krne ke liye</b>
+        </p>
+
+        <pre>
+isme hm jis format       me 
+           text likhenge,
+           <u>ye underline ke liye</u>
+           usi format me show hoga     space 
+           bhi        consider        karega
+
+           <i>ye ittalic font ke liye</i>
+           <strong>ye strong font ke liye</strong>
+           <em>ye i tag jaisa hi hai emphasis tag</em>
+           <small>font size chhota krne ke liye</small>
+           <mark>ye text ko mark or highlight krne ke liye</mark>
+           <del>ye wrong text to cross krne ke liye</del>
+           <ins>insert krne ke liye</ins>
+
+           ye important hai maths ke liye 
+           x<sub>2</sub>    subscript
+           y<sup>3</sup>    superscript
+
+
+
+           <h1>QUATATION</h1>
+           <q>bhag bsdk,dekhta hu kitni dur bhagta hai</q>
+           <blockquote cite="yah wo site ka naam dete hai jaha se hmne uthaya hai">ye space le leta hai bs </blockquote>
+           <abbr title="WORLD HEALTH ORGANISATION">WHO</abbr> <!--ispe cursor dalne pe abbreviation bta deta hai-->
+           <address>
+               Darbhanga,Bihar,846005
+           </address>   <!--to tell adress -->
+           <cite>5 point some one </cite> is written by Chetan Bhagat <!--iska use author aur book ke naam ke liye -->
+           <h2>HTML LINKS</h2>
+                <a href="https://www.w3schools.com/html/">Read More</a> <!--this is anchor tag-->
+                <a href="https://www.w3schools.com/html/" target="_blank">Know more in new tab</a> <!--this is anchor tag-->
+                <a href="https://www.w3schools.com/html/" target="_blank" title="go to W3school/html">Know more in new tab</a> <!--this is anchor tag-->
+             <!--isse mai hidden content show kr skta hu-->
+             <a href="#local"  title="go random text">go to random words</a> <!--this is anchor tag-->
+                
+             <h1>Email links</h1>
+             <p>
+                contact us on <a href="mailto:devtushar30@gmail.com?subject=hello,how are you">devtushar30@gmail.com</a>
+                contact us on <a title="without subject" href="mailto:devtushar30@gmail.com">devtushar30@gmail.com</a>   <!--to send without subject-->
+             <h2>Images</h2>
+             <img src="image.png" alt="logo" width="500" height="600">    <!--alt works if the image cant be found-->
+             <img src="imagegjc.png" alt="logo" width="500" height="600">    <!--alt works if the image cant be found-->
+            
+             <h1>ordered list</h1>
+             <ol start="11">
+                 <li >coffee</li>
+                    <ol type="a">
+                        <li>Black coffee</li>
+                        <li>cold coffee</li>
+                    </ol>
+                <li>milk</li>
+                <li>sugar</li>
+                <!--start nhi lgane pe ye by default 1 se ginti karega-->            
+            </ol>
+            <ol type="I" > 
+                <li >coffee</li>
+               <li>milk</li>
+               <li>sugar</li>
+               <!-- type="A" se  ya type="a" se ginti a/A se start hogi-->            
+           </ol>
+
+           <h1>Unordered List</h1>
+               <ul style="list-style-type:square;">  <!--style type may be circle/disc/square/none(to show nothing)-->
+                <li >coffee</li>
+                <ul >     <!--i can change this ul to ol to make it ordered-->
+                    <li>Black coffee</li>
+                    <li>cold coffee</li>
+                </ul>
+
+                <li>milk</li>
+                <li>sugar</li>
+               </ul>
+
+               <h4>Description list</h4>
+               <dl>coffee</dl>
+                     <dd>--coffee beans are the source</dd>
+               <dl>milk</dl>
+                    <dd>--Cow is the main source</dd>
+
+
+            
+             </p>
+            </pre>
+
+        <p>
+        <h1>HTML TABLES</h1>
+        <table border="1 px">
+            <!--table with heading-->
+            <tr>
+                <th>coloumn 1</th>
+                <th>coloumn 2</th>
+                <th>coloumn 3</th>
+            </tr>
+
+            <tr>
+                <td>data 1</td>
+                <td>data 2</td>
+                <td>data 3</td>
+
+            </tr>
+            <tr>
+                <td>data 4</td>
+                <td>data 5</td>
+                <td>data 6</td>
+
+            </tr>
+            <tr>
+                <td>data 8</td>
+                <td>data 9</td>
+                <td>data 10</td>
+
+            </tr>
+
+        </table>
+        <br><br>
+
+        <table border="2">
+            <!--to make heading in rows-->
+            <tr>
+                <th>row 1</th>
+                <td>data 1</td>
+                <td>data 2</td>
+                <td>data 3</td>
+            </tr>
+
+            <tr>
+                <th>row 2</th>
+                <td>data 4</td>
+                <td>data 5</td>
+                <td>data 6</td>
+            </tr>
+
+            <tr>
+                <th>row 3</th>
+                <td>data 8</td>
+                <td>data 9</td>
+                <td>data 10</td>
+
+            </tr>
+        </table>
+
+        </p>
+        <!--hum table me text ke alawa bhi koi elements de skte hai-->
+        <table border="1">
+            <caption>TABLE EXAMPLE</caption>
+            <tr>
+                <th>row 1</th>
+                <td>
+                    <img src="image.png" alt="">
+                </td>
+                <td colspan="2">
+                    <!--isse maine 2 coulumn google aur data 3 ko combine kiya-->
+                    <a href="https://www.google.com">Google</a>
+                </td>
+                <!--yha se  <td>data 3</td> isko remove kr diya qki iska use nhi ab dono coloumn me sirf google dikhega-->
+            </tr>
+
+            <tr>
+                <th rowspan="2">row 2</th>
+                <!--isse row cobine krte hai yha maine row 2 aur row 3 ko combine kiya-->
+                <td>data 4</td>
+                <td>data 5</td>
+                <td>data 6</td>
+            </tr>
+
+            <tr>
+                <!--yha se <th>row 3</th> isko remove kr diya -->
+                <td>data 8</td>
+                <td>data 9</td>
+                <td>data 10</td>
+
+            </tr>
+        </table>
+
+        <h1>table heading,table body,table footer</h1>
+        <table border="1">
+            <thead style="color:red;">
+                <tr>
+                    <th>coloumn 1</th>
+                    <th>coloumn 2</th>
+                    <th>coloumn 3</th>
+                </tr>
+            </thead>
+
+            <tbody style="color:green;">
+                <tr>
+                    <td>data 1</td>
+                    <td>data 2</td>
+                    <td>data 3</td>
+
+                </tr>
+                <tr>
+                    <td>data 4</td>
+                    <td>data 5</td>
+                    <td>data 6</td>
+
+                </tr>
+                <tr>
+                    <td>data 8</td>
+                    <td>data 9</td>
+                    <td>data 10</td>
+
+                </tr>
+            </tbody>
+            <!--if we go down in table scrolling,to see tha name of coloum we add tfoot-->
+            <tfoot style="color:red;">
+                <tr>
+                    <th>coloumn 1</th>
+                    <th>coloumn 2</th>
+                    <th>coloumn 3</th>
+                </tr>
+            </tfoot>
+        </table>
+        <dl>
+            <h1>nested table</h1>
+        </dl>
+        <dd>
+            <h4>table ke andar table</h4>
+        </dd>
+        <table border="1">
+            <thead style="color:red;">
+                <tr>
+                    <th>coloumn 1</th>
+                    <th>coloumn 2</th>
+                    <th>coloumn 3</th>
+                </tr>
+            </thead>
+
+            <tbody style="color:green;">
+                <tr>
+                    <td>data 1</td>
+                    <td>data 2</td>
+                    <td>data 3</td>
+
+                </tr>
+                <tr>
+                    <td>data 4</td>
+                    <td>
+                        <table border="1">
+                            <tr>
+                                <td>col 1</td>
+                                <td>col 2</td>
+                            </tr>
+                            <tr>
+                                <td> col 3</td>
+                                <td>col 4</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>data 6</td>
+
+                </tr>
+                <tr>
+                    <td>data 8</td>
+                    <td>data 9</td>
+                    <td>data 10</td>
+
+                </tr>
+            </tbody>
+            <!--if we go down in table scrolling,to see tha name of coloum we add tfoot-->
+            <tfoot style="color:red;">
+                <tr>
+                    <th>coloumn 1</th>
+                    <th>coloumn 2</th>
+                    <th>coloumn 3</th>
+                </tr>
+            </tfoot>
+        </table>
+        <h1>
+            < div> and < span></span></div>
+        </h1>
+        there are teo types of structure elements <br>
+        < div> Block element
+            <dd>ye pura stretch hota hai aur aas paas koi element nhi rhne deta
+                div wrapper hai baaki element ka jo isko ek structure me rkhta hai
+            </dd>
+            <img src="image 2.png" alt="logo" width="500" height="500"><br>
+
+            < span> Inline element it doesnt start on a new line and only takes up as much width as necessary <br> <br>
+
+                <html>
+
+
+                <body>
+                    <div style="border:1px solid red;">random text</div>
+                    <br>
+                    <span style="border:1px solid black;">random text increased</span>
+
+                </body>
+
+                </html>
+                <iframe src="https://www.ndtv.com/" height="500" weidth="1000"></iframe>
+                <iframe src="https://www.news18.com/" height="500" width="500"></iframe>
+                <h1>html audio</h1>
+                <audio controls>
+                    <source src="Guru 2007 - Tere Bina.mp3" type="audio/mpeg">
+                    <!--I have kept this file to the same html file-->
+                </audio>
+                <h1>html video></h1>
+                <video controls src="D:\Users\devtu\Downloads\Rainy Day [short 30 sec animation].mp4" height="500"
+                    weidth="50"></video>
+
+                Your browser doesn't support the video.
+
+
+
+                </video>
+
+
+                <h1>Embed Pdf</h1>
+                <h3>We can show pdf in three formats</h3>
+
+                <!--embed-->
+                <embed src="sample.pdf" type="application/pdf" width="1000" height="500">
+                <!--iframe-->
+                <iframe src="sample.pdf" width="500" height="500"></iframe>
+                <!--object-->
+                <object data="sample.pdf" width="1200" height="500" type="application/pdf"></object>
+
+                <h1>youtube video</h1>
+                <!--video ke share me embed ka option aayega wha se tag copy paste krlo or starting time aur baaki setting bhi-->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QXPWs00RD3A?start=8148"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+
+                <h1>google map</h1>
+                <!--map pe jao share me embed ka option se krlo-->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.2867092678243!2d85.90507871462658!3d26.154790483459834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39edb83dd6b50bd1%3A0x81a25cda332166dc!2sDarbhanga%20Junction!5e0!3m2!1sen!2sin!4v1628967812604!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                <h1>HTML Entities</h1>
+                <!--to print tags and more entities in two ways-->
+                <!--name lt for less than and gt for greater than-->
+                &lt;div&gt; <br>
+                <!--number-->
+                &#60;div&#62;
+                <!--we have many more HTML entities we can search on google-->
+                <h6>non-breaking space</h6>
+                <p>hello &nbsp;&nbsp;&nbsp;&nbsp;world</p>
+                <h1>HTML Symbols</h1>
+                &copy;
+                <!--Mathematical Symbols-->
+                &#8508;
+                <!--We can search more HTML symbols and emo number on google-->
+                <br>
+                <h!>Emojis</h> <br>
+                    &#128516;
+                    <p>
+                        semantic element:- Elemnt having meaning
+
+                        <br>
+                        here these two table show non-semantic and semantic elements
+                    </p>
+                    <img src="C:\Users\devtu\OneDrive\Pictures\Screenshots\Screenshot (2).png" width="500" height="600">
+    </body>
+    <!--iframe tag ka kaam hota hai same page me koi link kholna-->
+
+
+
+    <h1>html image maps</h1>
+    <a href="https://www.instagram.com/de.wylde/">
+        <img src="Tushar.jpg">
+    </a>
+    <!--agr hum ek image me 2 link dena chahte hai;like mob aur desktop ke liye alg alg-->
+
+    <body><img src="Friends.jpg" usemap="#Friends">
+        <map name="Friends">
+            <area alt="nikhil" title="nikhil" href="https://www.instagram.com/_itsmenikk_/" coords="236,471,100,44"
+                shape="rect">
+            <area alt="rahul" title="rahul" href="https://www.instagram.com/rahul.__kr/" coords="459,203,637,476"
+                shape="rect">
+            <area alt="chirag" title="chirag" href="https://www.instagram.com/yadav_chirag_110/" coords="1,52,98,466"
+                shape="rect">
+            <area alt="tushar" title="tushar" href="https://www.instagram.com/de.wylde/" coords="359,26,456,475"
+                shape="rect">
+            <area alt="Yash" title="Yash" href="https://www.instagram.com/yayashgupta/" coords="227,42,360,434"
+                shape="rect">
+        </map>
+
+
+
+        <!--form (div lga ke aur bina div ke)-->
+        <form method="GET" action="">
+            <!--method me "get" ya "post" dal sakte,ye backend developer ka kaam hai;to transfer data-->
+            <!--action ka kaam hai form submit hone pe data ko koi specific page pe le jana;blank rkhne pe isi page pe data a jayega -->
+
+            Name
+            <input type="text">
+
+            <div>
+                NAME :
+                <input type="text">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="submit form">
+            </div>
+
+
+
+
+            <br>
+            <h1>Form input types</h1>
+            <div>
+                TEXT:
+                <input type="text"><br>
+            </div>
+
+
+            <div>
+                submit
+                <input type="submit"><br>
+            </div>
+
+
+            <div>
+                COLOUR:
+
+                <input type="color"><br>
+            </div>
+
+
+            <div>
+                DATE:
+                <input type="date"><br>
+            </div>
+
+            <div>
+                Email ID:
+                <input type="email"><br>
+            </div>
+
+            <div>
+                hidden:
+                <input type="hidden" value="INDIA"><br>
+            </div>
+
+            <div>
+                Number
+
+                <input type="number"><br>
+            </div>
+
+            <div>
+                Password
+
+                <input type="password"><br>
+            </div>
+
+            <div>
+                RESET
+                <input type="reset"><br>
+            </div>
+
+            <div>
+                TIME:
+                <input type="time"><br>
+            </div>
+
+            <div>
+                URL:
+                <input type="url"><br>
+            </div>
+
+            <div>
+                Range:
+                <input type="range" min="100" max="2000"><br>
+            </div>
+
+            <h1>upload file</h1>
+            <form enctype="multipart/form-data">
+                <input type="file" multiple>
+                <!--multiple is used to upload multiple files-->
+            </form>
+        </form>
+
+
+        <h1>HTML Input Attributes</h1>
+        <form>
+            <input type="text" value="Tushar" readonly>
+            <!--yha pe value already print aayega we can edit that later
+but readonly lgane se we cant edit that any more-->
+            <input type="submit" value="Go">
+            <br>
+            <h6>disabled---></h6>
+
+            <input type="Tushar" value="Tushar" disabled>
+            <!--disabled se input box fade ho jayega--><br><br>
+
+
+
+
+            <input value="" size="50" maxlength="20" placeholder="Enter anything " size="50">
+            <!--size attr se box ka size itna badh jayega ki usme 50 character ek baar me visible ho -->
+            <!--maxlength se limited charachter hi enter honge -->
+            <input type="submit" value="Go">
+            <br>
+            <input type="number" min="10" max="20">
+            Ye bs number lega jo 10-20 me aaye
+
+            <br>
+            <input type="number" value="1" step="2">
+            isme 2 se increment hoga
+            <br>
+            <br>
+            <input type="text" autofocus autocomplete="">
+            <!--autocomplete se suggestion aayega;on ya off kr skte h; aur autofocus se cursor by default box me rahega-->
+
+            <input type="text" name="First_name">
+            <input type="text" name="Last_name">
+            <!--ye help karega batane me ki first aur last name konsa hai-->
+            <input type="submit" value="Go">
+
+
+
+
+        </form>
+
+        <form>
+            <h1>Html textarea</h1>
+            <textarea rows="20" cols="20">Hello... </textarea>
+            <input type="image"
+                src="https://blog.udemy.com/wp-content/uploads/2014/02/shutterstock_61850923-300x290.jpg" width="50"
+                height="80">
+
+            <br>
+            <h1>select option</h1>
+            <select size="2" multiple>
+                <!--yha pe size se hm decide krenge ki ek baar me kitne option show ho-->
+
+                <Option value="1">aam</Option>
+                <Option value="2" selected>lichhi</Option>
+                <Option value="3">baingan</Option>
+
+            </select>
+            <!--value ka database me kis naam se store hoga uske liye hai-->
+
+            <br><br><br>
+            <select>
+                <optgroup label="edibles">
+                </optgroup>
+
+                <Option value="1">aam</Option>
+                <Option value="2" selected>lichhi</Option>
+                <Option value="3">baingan</Option>
+                <optgroup label="wearable">
+                    <option value="1">T shirt</option>
+                    <option value="2">Jeans</option>
+                    <option value="3">Pants</option>
+
+                </optgroup>
+
+            </select>
+
+
+            <h1>Radio Button</h1>
+            <input name="gender" type="radio" value="1">Male
+            <input name="gender" type="radio" value="2">Female
+            <input name="gender" type="radio" value="3">Other
+
+            <!--yha pe sbka naam same hai kyuki bina same name ke ek se jyada option select ho jayega -->
+
+            <h1>checkbox</h1>
+            <input type="checkbox">Cricket
+            <input type="checkbox">Hockey
+            <input type="checkbox">Football
+            <!--yha same name dene se bhi multiple selection hoga-->
+            <h1>datalist</h1> <br><br>
+                <!--ex: google pe koi letter likhte hi suggestions aa jate hai-->
+
+                Fruit Name <input type="text" list="search">
+                <datalist id="search">
+                    <option value="Apple">
+                    <option value="Mango">
+                    <option value="Orange">
+                    <option value="Banana">
+
+                </datalist>
+                <input type="submit" value="Search">
+
+                <h1>Label,feildset and legends</h1>
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" name="First_Name" id="fname"><br>
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+<!--Label me id aur for ki help se agr hm wep page pe first name pe click karte hai to cursor,box me automatically focus ho jayega-->
+           <h2>Using fieldset,label and legends</h2>
+                <fieldset>
+                    <legend>Basic Infos:</legend>
+                    <label for="fname">First Name</label>
+                    <input type="text" name="First_Name" id="fname">
+                    <label for="lname">First Name</label>
+                    <input type="text" name="Last_Name" id="lname">
+                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>Contact</legend>
+                    <label for="address">Address</label>
+                    <input type="text" name="Address" id="address">
+                    <label for="no">Mobile</label>
+                    <input type="number" name="Mobile" id="no">
+                </fieldset>
+
+              
+                   <center>
+                    <input type="image" src="submit.jpg" width="100" height="50" >
+                </center> 
+                
+        </form>
+    </body>
+
+    </html>
